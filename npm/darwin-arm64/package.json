@@ -1,6 +1,6 @@
 {
   "name": "macos_accessibility_client-darwin-arm64",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "os": [
     "darwin"
   ],
