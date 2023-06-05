@@ -14,9 +14,9 @@ import { applicationIsTrusted, applicationIsTrustedWithPrompt } from 'macos_acce
 function query_accessibility_permissions() {
     const trusted = applicationIsTrusted();
     if (trusted) {
-        print!("Application is totally trusted!");
+        console.log("Application is totally trusted!");
     } else {
-        print!("Application isn't trusted :(");
+        console.error("Application isn't trusted :(");
     }
     return trusted
 }
@@ -24,9 +24,9 @@ function query_accessibility_permissions() {
 function query_accessibility_permissions_with_prompt() {
     const trusted = applicationIsTrustedWithPrompt();
     if (trusted) {
-        print!("Application is totally trusted!");
+        console.log("Application is totally trusted!");
     } else {
-        print!("Application isn't trusted :(");
+        console.error("Application isn't trusted :(");
     }
     return trusted
 }
