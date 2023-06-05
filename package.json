@@ -1,6 +1,12 @@
 {
   "name": "macos_accessibility_client",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahkohd/macos_accessibility_client.git"
+  },
+  "description": "A Node.JS Wrapper around macOS' accessibility client APIs",
+  "author": "Victor Aremu <victor.olorunbunmi@gmail.com>",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -34,5 +40,14 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "yarn@3.6.0",
+  "keywords": [
+    "macos",
+    "accessibility",
+    "client",
+    "napi",
+    "electron",
+    "permission",
+    "rust"
+  ]
 }
