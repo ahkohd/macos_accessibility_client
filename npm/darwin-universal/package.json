@@ -1,6 +1,6 @@
 {
   "name": "macos_accessibility_client-darwin-universal",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "os": [
     "darwin"
   ],
